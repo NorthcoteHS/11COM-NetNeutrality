@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Moose Rights</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Uncomment to use external CSS
+        <link rel="stylesheet" href="PATH/TO/EXTERNAL/STYLES.CSS">
+        -->
+
+        <style type="text/css">
+            html, body {
+                font-family: sans-serif;
+            }
+            .question {
+                font-weight: bold;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Net Neutrality Survey</h1>
+        <p>What is Net Neutrality by definition is the principle that Internet service providers should enable access to all content and applications regardless of the source, and without favouring or blocking particular products or websites. Now you may be thinking what this means in a laymans terms is that ISPs or interenet service providers can not restrict what you do on the internet internet service providers are companies like optus, telstra, dodo, iinet, belong and many more.
+
+        More importantly you have probably heard of net neutrality before on the news being the repeal of net neutrality in the U.S. in november of 2017 it was announced that the US government was going through a process of repealing net neutrality and evetnutally they were succesful giving internet service providers much more control over the US's internet connection.  </p>
+
+        <p>
+            Please tell us what you think about this importanat issue relating to internet freedom.
+        </p>
+
+        <h2>Survey</h2>
+        <form action="http://httpbin.org/post" method="post">
+            <p>
+                <!-- Nominal (Qualitative) data -->
+                <span class="question">Year level:</span>
+                <select name="year" required>
+                    <option></option>
+                     <option value="7">Year 7</option>
+                    <option value="8">Year 8</option>
+                    <option value="9">Year 9</option>
+                    <option value="10">Year 10</option>
+                    <option value="11">Year 11</option>
+                    <option value="12">Year 12</option>
+                    <option value="Teacher">Teacher</option>
+                    <option value="Parent">Parent</option>
+                    <option value="Other">Other</option>
+                </select>
+            </p>
+
+            <p>
+                <!-- Nominal (Qualitative) data -->
+                <span class="question" required>Gender:</span>
+                <label><input type="radio" name="gender" value="female">Female</label>
+                <label><input type="radio" name="gender" value="male">Male</label>
+                <label><input type="radio" name="gender" value="other">Other</label>
+            </p>
+            <p>
+                <!-- Ordinal (Qualitative) data -->
+                <span class="question">what kind of effect do you think the repeal of net neutrality will have.</span>
+                <br/>
+                <label><input type="radio" name="interact" value="positive">positive effect</label>
+                <label><input type="radio" name="interact" value="none">no effect</label>
+                <label><input type="radio" name="interact" value="negative">negative effect</label>
+            </p>
+            <p>
+                <!-- Ordinal (Qualitative) data -->
+                <span class="question">do you support the the idea of net neutrality in Australia.</span>
+                <br/>
+                <label><input type="radio" name="drake" value="0">0 (None)</label>
+                <label><input type="radio" name="drake" value="1">1 (a little)</label>
+                <label><input type="radio" name="drake" value="2">2 (Some)</label>
+                <label><input type="radio" name="drake" value="3">3 (Moderate)</label>
+                <label><input type="radio" name="drake" value="4">4 (A great deal)</label>
+                <label><input type="radio" name="drake" value="5">5 (It is very important to our country)</label>
+            </p>
+            <p>
+                <!-- Nominal (Qualitative) data -->
+                <span class="question">do you believe that net neutrality will make the internet a safer place</span>
+                <br/>
+                <label><input type="checkbox" name="yes1">yes</label>
+                <label><input type="checkbox" name="no1">no</label>
+                <label><input type="checkbox" name="notsure1">not sure</label>
+
+            </p>
+            <p>
+                <!-- Nominal (Qualitative) data -->
+                <span class="question">do you use streaming services often (eg, netflix, youtube, twitch)</span>
+                <br/>
+                <label><input type="checkbox" name="yes2">yes</label>
+                <label><input type="checkbox" name="no2">no</label>
+                <label><input type="checkbox" name="notsure2">not sure</label>
+
+            </p>
+            <p>
+                <!-- Nominal (Qualitative) data -->
+                <span class="question">would you pay extra money for these streaming services to run faster</span>
+                <br/>
+                <label><input type="radio" name="consider" value="defenitly">definitely</label>
+                <label><input type="radio" name="consider" value="maybe">maybe</label>
+                <label><input type="radio" name="consider" value="probablynot">probably not</label>
+                <label><input type="radio" name="consider" value="noway">Never</label>
+            </p>
+            <p>
+                <!-- Nominal (Qualitative) data -->
+                <span class="question">do you support the idea of net neutrality in Australia</span>
+                <br/>
+                <label><input type="radio" name="vote" value="yes">Yes</label>
+                <label><input type="radio" name="vote" value="no">No</label>
+            </p>
+            <p>
+                <!-- Ratio (Quantitative) data -->
+                <span class="question">Finally do you have any other comments</span>
+                <br/>
+                <input type="text" name="release">
+            </p>
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <!-- Uncomment to use external JavaScript
+        <script src="PATH/TO/EXTERNAL/SCRIPT.JS"></script>
+        -->
+
+        <script>
+            /* Your JS goes here */
+        </script>
+    </body>
+</html>

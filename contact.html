@@ -23,58 +23,52 @@
 <body>
 <!-- header section -->
 <section class="innerbanner" role="banner">
-  <header id="header"> 
+  <header id="header">
     <!-- navigation section  -->
-    <div class="header-content clearfix"> <a class="logo" href="index.html"><img src="images/ss.png" alt="ss"></a>
+    <div class="header-content clearfix"> <a class="logo" href="index.html"><img src="images/ss.png" alt="Mafolio"></a>
       <nav class="navigation" role="navigation">
         <ul class="primary-nav">
           <li><a href="about.html">About Me</a></li>
-         <!-- <li><a href="contact.html">Contact</a></li> -->
+         <!-- <li><a href="contact.html">Contact</a></li>-->
           <li><a href="Bibliography.html">Bibliography</a></li>
         </ul>
       </nav>
       <a href="#" class="nav-toggle">Menu<span></span></a> </div>
-    <!-- navigation section  --> 
+    <!-- navigation section  -->
   </header>
-  
   <!-- banner text -->
   <div class="container">
     <div class="col-md-10 col-md-offset-1">
       <div class="innerbanner-text text-center">
-        <p>Solutions</p>
-        <!-- banner text --> 
-        </div>
+        <p>Contact</p>
+        <!-- banner text -->
+      </div>
     </div>
   </div>
 </section>
-<!-- header section --> 
+<!-- header section -->
 <!-- description text section -->
 <section id="inner-description" class="section inner-description">
   <div class="container">
-    <div class="col-md-10 col-md-offset-1 text-center"> 
-      <h1></h1>
-      <p></p>
-    </div>
-    <div class="col-md-10 col-md-offset-1 space">
-      <p>There are three possible solutions to net neutrality, each of which have their own advantages and disadvantages. You can either have or not have net neutrality or you can regulate it. Having net neutrality would mean that some companies would get faster speeds, but others would get slower speeds. Not having net neutrality would make it so everyone can have equal access to the internet, but you wouldn’t be able to block websites from anyone. You could also regulate it so that inappropriate websites can be blocked from kids, but this would mean paying more for internet access. 
- </p>
+    <div class="col-md-10 col-md-offset-1 text-center">
+      <p>I am honest, discreet and always focus on your goals. If you are looking for a strategist and experienced designer, just leave me a message and I'll contact you soon.</p>
+      <!--contact form start-->
+      <div class="col-md-6 col-md-offset-3 conForm">
+        <div id="message"></div>
+        <form method="post" action="php/contact.php" name="cform" id="cform">
+          <input name="name" id="name" type="text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Your name..." >
+          <input name="email" id="email" type="email" class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 noMarr" placeholder="Email Address..." >
+          <textarea name="comments" id="comments" cols="" rows="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Project Details..."></textarea>
+          <input type="submit" id="submit" name="send" class="submitBnt" value="Send">
+          <div id="simple-msg"></div>
+        </form>
+      </div>
+      <!--contact form end-->
     </div>
   </div>
 </section>
-<!-- description text section --> 
-
-<!-- hire me section 
-<section id="hireme" class="section hireme">
-  <div class="container">
-    <div class="col-md-8 col-md-offset-2 text-center">
-      <h3>Need something specific?</h3>
-      <p>We are currently crafting new products but would love to hear from you.</p>
-      <a href="https://github.com/kamalcha/ActiveBox/archive/master.zip" class="btn btn-large">Hire me</a> </div>
-  </div>
-</section>
-<!-- hire me section --> 
+<!-- description text section -->
 <!-- footer -->
-
 <footer class="section footer">
   <div class="footer-bottom">
     <div class="container">
@@ -95,15 +89,16 @@
     </div>
   </div>
 </footer>
-<!-- footer --> 
+<!-- footer -->
 
-<!-- JS FILES --> 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
-<script src="js/bootstrap.min.js"></script> 
-<script src="js/jquery.fancybox.pack.js"></script> 
-<script src="js/jquery.waypoints.min.js"></script> 
-<script src="js/retina.min.js"></script> 
-<script src="js/modernizr.js"></script> 
+<!-- JS FILES -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/retina.min.js"></script>
+<script src="js/modernizr.js"></script>
+<script src="js/jquery.contact.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
